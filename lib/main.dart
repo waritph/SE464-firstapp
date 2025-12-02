@@ -81,6 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Text("Calculate", style: TextStyle(fontSize: 44, fontFamily: 'maaja', fontStyle: FontStyle.italic, color: Colors.blue, fontWeight: FontWeight.bold, backgroundColor: Colors.pinkAccent)),
             Image.asset("assets/banana.png", width: 150, height: 150),
+            Image.network("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHM4ZG05MTE4dzlhZjUwdm93M2IwY2tvd2FyZGsxZzBxMTljdjFseiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z5xk7fGO5FjjTElnpT/giphy.gif", width: 150, height: 150),
             _priceTextField(),
             const SizedBox(height: 20),
             _amountTextField(),
