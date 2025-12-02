@@ -78,6 +78,9 @@ flutter:
       fonts:
         - asset: fonts/maaja.ttf
           style: italic
+
+  assets:
+    - assets/banana.png
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

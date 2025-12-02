@@ -79,7 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(20.0),
         child: Column(
           children: [
-            Text("Change Calculation", style: TextStyle(fontSize: 24, fontFamily: 'maaja')),
+            Text("Calculate", style: TextStyle(fontSize: 44, fontFamily: 'maaja', fontStyle: FontStyle.italic, color: Colors.blue, fontWeight: FontWeight.bold, backgroundColor: Colors.pinkAccent)),
+            Image.asset("assets/banana.png", width: 150, height: 150),
             _priceTextField(),
             const SizedBox(height: 20),
             _amountTextField(),
