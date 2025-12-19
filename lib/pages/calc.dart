@@ -141,34 +141,3 @@ class _CalculatePageState extends State<CalculatePage> {
     });
   }
 }
-
-// ================= PAGES =================
-
-class ContactPage extends StatelessWidget {
-  const ContactPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        'Contact Page\nWarit',
-        textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 24),
-      ),
-    );
-  }
-}
-
-class AboutPage extends StatelessWidget {
-  const AboutPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        'About Page',
-        style: TextStyle(fontSize: 24),
-      ),
-    );
-  }
-}
