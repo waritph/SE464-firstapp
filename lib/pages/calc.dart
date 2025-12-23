@@ -20,7 +20,7 @@ class _CalculatePageState extends State<CalculatePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Calculate'), // ✅ แก้ widget.title
+        title: const Text('Calculate'), 
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
@@ -62,7 +62,7 @@ class _CalculatePageState extends State<CalculatePage> {
     );
   }
 
-  // ---------- widgets ----------
+
   Widget _priceTextField() {
     return Padding(
       padding: const EdgeInsets.all(8.0),
