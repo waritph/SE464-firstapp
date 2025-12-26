@@ -82,6 +82,8 @@ flutter:
 
   assets:
     - assets/banana.png
+    - assets/data.json
+   # - assets/
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
